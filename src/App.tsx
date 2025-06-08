@@ -1,43 +1,21 @@
-// import MeuPrimeiroComponente from "./Componentes/MeuPrimeiroComponente"
-// import Saudacao from "./Componentes/Saudacao"
-// import Container from "./Componentes/Container"
-// import Button from "./Componentes/Button"
-// import Header from "./Componentes/Header/header"
-// import InputTitle from "./Componentes/Inputs/Title/title";
-// import InputDescription from "./Componentes/Inputs/Description/description"
-// import style from "./form.module.css"
-
+import InputDescription from "./Componentes/Inputs/Description/description"
+import InputTitle from "./Componentes/Inputs/Title/title"
+import Header from "./Componentes/Header/header"
+import Button from "./Componentes/Button/index"
 
 function App() {
   return ( 
   <main>
 
+<Header/>
 
-    {/* <Container color={"black"}>
-      <Header/>
-    </Container>
+<InputTitle/>
+<InputDescription/>
 
-    <form className={style.form}>
-      <InputTitle/>
-      <InputDescription/>
-
-      <Button>Adicionar</Button>
-
-    </form>
-    
- */}
-
+<Button>Adicionar</Button>
     
   </main>
   );
 };
 
 export default App
-
-
-
-  //  <Saudacao name="Edson" idade={22}/>
-  //  <Saudacao name="Cleiton" idade={10}/>
-  //  <Saudacao name="Matheus" idade={4}/>
-  //  <Saudacao name="Maicon" idade={6}/>
-{/* <MeuPrimeiroComponente/> */}

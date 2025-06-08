@@ -8,7 +8,7 @@ interface Props {
 export default function Button ({children}: Props) {
   return (
   
-  <button 
+  <button type='submit'  
   
   className={style.button}>{children}
   
